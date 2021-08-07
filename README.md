@@ -126,4 +126,5 @@ To run the application in a container, do this:
      <INFO> [18:20:47] simple simple.lisp (acceptor-dispatch-request application) - SIMPLE::*HTTP-REQUESTS-COUNTER*: #<PROMETHEUS:COUNTER name: http_requests_total {10153A6073}>
     10.0.2.100 - [2021-08-04 18:20:47] "GET /health HTTP/1.1" 200 5 "-" "curl/7.76.1"
 
-Now just fire up emacs, run `sly-connect` against localhost, port 4005, and get cracking on your next masterpiece!
+Now just fire up emacs, run `sly-connect` against localhost, port
+4005, and get cracking on your next masterpiece!
